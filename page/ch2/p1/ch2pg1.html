@@ -5,10 +5,10 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Website Name | Home</title>
+		<title>Website Name | Chapter 2 Page 1</title>
 
 		
-			<meta property="og:title" content="Home">
+			<meta property="og:title" content="Chapter 2 Page 1">
 		
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://example.com">
@@ -54,7 +54,7 @@
 			<a href="/">Home</a>
 		</li>
 		<li>
-			<a href="cast.html">Cast</a>
+			<a href="/cast">Cast</a>
 		</li>
 		<li>
 			<a href="/archive">Archive</a>
@@ -76,51 +76,43 @@
 
 
 
-<h1>Home</h1>
+<h1>Chapter 2 Page 1</h1>
+
+
+	<p class="date">Tuesday, April 2, 2024</p>
 
 
 
+	<nav class="comic-navigation">
+		<ol>
+			
+				<li class="first-page">
+					<a href="/page/ch1/p1/"><img src="/assets/img/first.svg" alt="First"></a>
+				</li>
+				<li class="previous-page">
+					<a href="/page/ch1/p2/"><img src="/assets/img/previous.svg" alt="Previous"></a>
+				</li>
+			
+			
+		</ol>
+	</nav>
 
 
 <div class="comic-content">
-	
-
-
-
-
-
-
-
-
-
-	<nav class="comic-navigation">
-		<ol>
-			
-				<li class="first-page">
-					<a href="ch1pg1.html"><img src="/assets/img/first.svg" alt="First"></a>
-				</li>
-				<li class="previous-page">
-					<a href="ch1pg2.html"><img src="/assets/img/previous.svg" alt="Previous"></a>
-				</li>
-			
-			
-		</ol>
-	</nav>
-
-
-<p>Here is page 1 of chapter 2 of your webcomic!</p>
+	<p>Here is page 1 of chapter 2 of your webcomic!</p>
 <p><img src="/assets/img/pages/p0.png" alt="An example image that is 720 pixels wide"></p>
 
+</div>
 
 
 	<nav class="comic-navigation">
 		<ol>
 			
 				<li class="first-page">
-					<a href="ch1pg1.html"><img src="/assets/img/first.svg" alt="First"></a>
+					<a href="/page/ch1/p1/"><img src="/assets/img/first.svg" alt="First"></a>
 				</li>
 				<li class="previous-page">
-					<a href="ch1pg2.html"><img src="/assets/img/previous.svg" alt="Previous"></a>
+					<a href="/page/ch1/p2/"><img src="/assets/img/previous.svg" alt="Previous"></a>
 				</li>
 			
 			
@@ -128,7 +120,10 @@
 	</nav>
 
 
-<div class="save-load-buttons">
+
+	<div class="save-load-buttons">
+	
+		<button id="save-page">Save Page</button>
 	
 	<button id="load-page">Load Page</button>
 </div>
@@ -152,13 +147,6 @@
 			</main>
 		</div>
 	</article>
-
-</div>
-
-
-
-
-
 
 
 <script src="/assets/js/arrowNavigation.js"></script>
