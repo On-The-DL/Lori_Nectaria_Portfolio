@@ -1,0 +1,357 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Website Name | Home</title>
+
+		
+			<meta property="og:title" content="Home">
+		
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://example.com">
+		<meta property="og:image" content="https://example.com/assets/img/thumbnail.png">
+		<meta property="og:description" content="Your website subtitle">
+		<meta property="og:site_name" content="Website Name">
+		<meta property="og:locale" content="en_US">
+
+		<link rel="icon" type="image/png" href="/assets/img/favicon.png">
+		<link rel="stylesheet" href="/assets/css/style.css">
+
+		
+
+		
+			<script src="/assets/js/contentWarning.js"></script>
+		
+
+		
+			<script src="/assets/js/lightbox.js"></script>
+		
+
+		
+			<script src="/assets/js/widgets.js"></script>
+		
+
+		<script src="https://unpkg.com/swup@4"></script>
+		<script>
+			const swup = new Swup({containers: ['#content']});
+		</script>
+	</head>
+	<body>
+		<div id="skip-links">
+			<a href="#content">Jump to main content</a>
+		</div>
+
+		<header id="page-header">
+			<a href="/" id="logo">
+				<img src="/assets/img/logo.png" alt="Website Name">
+			</a>
+			<nav>
+	<ul>
+		<li>
+			<a href="/">Home</a>
+		</li>
+		<li>
+			<a href="/cast">Cast</a>
+		</li>
+		<li>
+			<a href="/archive">Archive</a>
+		</li>
+		
+			<li>
+				<a href="#" id="cw-dialogue">Content Options</a>
+			</li>
+		
+	</ul>
+</nav>
+		</header>
+
+		<main id="content">
+			
+
+
+
+
+
+
+<h1>Home</h1>
+
+
+
+
+
+<div class="comic-content">
+	
+
+
+
+
+
+
+
+
+
+	<nav class="comic-navigation">
+		<ol>
+			
+				<li class="first-page">
+					<a href="/page/ch1/p1/"><img src="/assets/img/first.svg" alt="First"></a>
+				</li>
+				<li class="previous-page">
+					<a href="/page/ch1/p2/"><img src="/assets/img/previous.svg" alt="Previous"></a>
+				</li>
+			
+			
+		</ol>
+	</nav>
+
+
+<p>Here is page 1 of chapter 2 of your webcomic!</p>
+<p><img src="/assets/img/pages/p0.png" alt="An example image that is 720 pixels wide"></p>
+
+
+
+	<nav class="comic-navigation">
+		<ol>
+			
+				<li class="first-page">
+					<a href="/page/ch1/p1/"><img src="/assets/img/first.svg" alt="First"></a>
+				</li>
+				<li class="previous-page">
+					<a href="/page/ch1/p2/"><img src="/assets/img/previous.svg" alt="Previous"></a>
+				</li>
+			
+			
+		</ol>
+	</nav>
+
+
+<div class="save-load-buttons">
+	
+	<button id="load-page">Load Page</button>
+</div>
+
+<script src="/assets/js/saveLoad.js">
+</script>
+
+
+
+	<article class="authors-note">
+		<h2>Author's Notes:</h2>
+		<div class="an-container">
+			<header id="an-header">
+				<b>The Author</b>
+			</header>
+			<main id="an-content">
+				<img src="/assets/img/example.svg" alt="The Author" class="an-avatar">
+				<p>This is a bit of a hacky way to do it, but because Eleventy does not support Nunjucks block declarations, this is how you can add an author's note to a page!</p>
+<p>This author's note supports <strong>Markdown Formatting</strong>, much like the rest of the comic's page. Make sure your author's note is space-indented, not tab-indented, or else your compiler is going to have issues.</p>
+
+			</main>
+		</div>
+	</article>
+
+</div>
+
+
+
+
+
+
+
+<script src="/assets/js/arrowNavigation.js"></script>
+		</main>
+
+		<footer>
+			Website Name 2024. | <a href="/feed.xml">RSS</a> | This website uses <a href="https://github.com/portfiend/eleventy-comic-template">Portfiend's comic template</a>!
+		</footer>
+
+		
+			
+	<dialog id="content-warning" autofocus>
+		
+			<p>
+				This website may contain content marked for 
+				<b>18+ audiences</b> only. By clicking the checkbox below, you agree that you are above this age.
+			</p>
+			<input id="cbx-adult" 
+				value="adult" 
+				type="checkbox" 
+				autocomplete="off"/>
+			<label for="cbx-adult">I agree that I am over the age of 18!</label>
+		
+
+		
+			<p>
+				This site may contain the following content warnings. Sensitive content will be 
+				<b>blurred</b> by default. Checked boxes will instead be <b>visible</b> by default. 
+			</p>
+			<ul>
+				
+					<li>
+						<input id="cbx-flash" 
+							value="flash" 
+							type="checkbox"
+							autocomplete="off"
+							
+							checked
+							/>
+						<label id="cbx-flash-label" for="cbx-flash">
+							Photosensitive imagery
+							(flashing / strobing / high-contrast)
+						</label>
+					</li>
+				
+					<li>
+						<input id="cbx-gore" 
+							value="gore" 
+							type="checkbox"
+							autocomplete="off"
+							
+							
+							/>
+						<label id="cbx-gore-label" for="cbx-gore">
+							Gore / Graphic violence
+							
+						</label>
+					</li>
+				
+					<li>
+						<input id="cbx-nudity" 
+							value="nudity" 
+							type="checkbox"
+							autocomplete="off"
+							
+							
+							/>
+						<label id="cbx-nudity-label" for="cbx-nudity">
+							Nudity
+							(non-sexual)
+						</label>
+					</li>
+				
+					<li>
+						<input id="cbx-sexual" 
+							value="sexual" 
+							type="checkbox"
+							autocomplete="off"
+							data-require=adult
+							
+							disabled/>
+						<label id="cbx-sexual-label" for="cbx-sexual">
+							Sexual content
+							(pornographic or sexually provocative)
+						</label>
+					</li>
+				
+			</ul>
+		
+
+		<form method="dialog">
+			<button 
+				id="confirm-dialog"
+				 >
+				Confirm my content preferences
+			</button>
+		</form>
+
+		<p>(These settings may be changed at any time via <b>Content Options</b> in the navigation bar.)</p>
+	</dialog>
+
+	
+	
+		
+	
+	<script>
+		{
+			const dialog = document.querySelector("dialog#content-warning");
+			const alreadyDone = localStorage.getItem("cw-confirm");
+			initializeContentWarning('["adult","flash","gore","nudity","sexual"]');
+			
+		}
+	</script>
+
+	<style>
+		
+			body:not(.optIn-adult) .cw-adult{
+				display: none;
+			}
+
+			.blur-content {
+				cursor: pointer;
+			}
+
+			.blur-content[data-blurred] .blur-inner {
+				filter: blur(5px);
+			}
+		
+			body:not(.optIn-flash) .cw-flash{
+				display: none;
+			}
+
+			.blur-content {
+				cursor: pointer;
+			}
+
+			.blur-content[data-blurred] .blur-inner {
+				filter: blur(5px);
+			}
+		
+			body:not(.optIn-gore) .cw-gore{
+				display: none;
+			}
+
+			.blur-content {
+				cursor: pointer;
+			}
+
+			.blur-content[data-blurred] .blur-inner {
+				filter: blur(5px);
+			}
+		
+			body:not(.optIn-nudity) .cw-nudity{
+				display: none;
+			}
+
+			.blur-content {
+				cursor: pointer;
+			}
+
+			.blur-content[data-blurred] .blur-inner {
+				filter: blur(5px);
+			}
+		
+			body:not(.optIn-sexual) .cw-sexual{
+				display: none;
+			}
+
+			.blur-content {
+				cursor: pointer;
+			}
+
+			.blur-content[data-blurred] .blur-inner {
+				filter: blur(5px);
+			}
+		
+	</style>
+
+
+
+		
+
+		
+			<div id="lb-overlay" hidden>
+	<figure id="lb-preview">
+		<img id="lb-img" src="" alt="" />
+	</figure>
+
+	<footer id="lb-metadata">
+		<div id="lb-caption"></div>
+		<table id="lb-metalist"></table>
+	</footer>
+</div>
+		
+	</body>
+</html>
