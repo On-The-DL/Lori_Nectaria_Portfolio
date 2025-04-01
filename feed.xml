@@ -10,7 +10,7 @@
 				<title>Chapter 2 Page 1</title>
 				<link>https://example.comch2pg1.html</link>
 				<description>&lt;p&gt;Here is page 1 of chapter 2 of your webcomic!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://example.com/assets/img/pages/p0.png&quot; alt=&quot;An example image that is 720 pixels wide&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://example.com/p0.png&quot; alt=&quot;An example image that is 720 pixels wide&quot; /&gt;&lt;/p&gt;
 </description>
 				<pubDate>Mon, 01 Apr 2024 20:00:00 +0000</pubDate>
 				<dc:creator>Your name here</dc:creator>
@@ -22,7 +22,7 @@
 				<description>&lt;p&gt;Here is page 2 of chapter 1 of your webcomic!&lt;/p&gt;
 &lt;p&gt;By default, your pages will be sorted in alphabetical order. Folders on a &amp;quot;lower&amp;quot; directory level may be placed earlier than files within subfolders of the &lt;code&gt;src/page&lt;/code&gt; directory. If you have all of your files numbered, then they should be ordered numerically - page 1 → page 2 ... → page 9 → page 10 → page 11, et cetera.&lt;/p&gt;
 &lt;p&gt;This hierarchy is easiest to wrap your head around if all files are on the same &amp;quot;level&amp;quot; of folders. For example, all pages are placed without a folder in the &lt;code&gt;page&lt;/code&gt; directory, or pages are divided into &lt;code&gt;chapter1&lt;/code&gt;, &lt;code&gt;chapter2&lt;/code&gt;, etc. folders. The ordering of comic pages is dependent on the custom collection found in &lt;code&gt;_config/comicPages.js&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://example.com/assets/img/pages/p0.png&quot; alt=&quot;An example image that is 720 pixels wide&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://example.com/p0.png&quot; alt=&quot;An example image that is 720 pixels wide&quot; /&gt;&lt;/p&gt;
 </description>
 				<pubDate>Mon, 01 Apr 2024 20:00:00 +0000</pubDate>
 				<dc:creator>Your name here</dc:creator>
@@ -31,7 +31,7 @@
 			<item>
 				<title>Introduction</title>
 				<link>https://example.comch1pg1.html</link>
-				<description>&lt;p&gt;&lt;img src=&quot;https://example.com/assets/img/pages/p0.png&quot; alt=&quot;An example image that is 720 pixels wide&quot; /&gt;&lt;/p&gt;
+				<description>&lt;p&gt;&lt;img src=&quot;https://example.com/p0.png&quot; alt=&quot;An example image that is 720 pixels wide&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Here is page 1 of chapter 1 of your webcomic!&lt;/p&gt;
 &lt;p&gt;Each page of your webcomic is a Markdown file, allowing you to add images, text, and anything else you imagine your webcomic page to have.&lt;/p&gt;
 &lt;p&gt;This template supports a few special features for the sake of user experience, such as arrow key navigation.&lt;/p&gt;
